@@ -1,5 +1,5 @@
  /**
-   * file: Problem3_15.java
+   * file: Problem3_4.java
    * author: Michelle Bartolo
    * course: CMPT 220
    * assignment: Lab 2
