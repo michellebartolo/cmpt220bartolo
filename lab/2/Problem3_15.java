@@ -11,7 +11,7 @@
    */
 
 import java.util.Scanner;
-public class Lottery {
+public class Problem3_15 {
   public static void main(String[] args) {
  
     // Generate a lottery number
