@@ -1,5 +1,5 @@
  /**
-   * file: GradeCalculatorassignment.java
+   * file: GradeCalculator.java
    * author: Michelle Bartolo
    * course: CMPT 220
    * assignment: Lab 2
