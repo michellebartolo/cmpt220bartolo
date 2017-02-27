@@ -11,7 +11,7 @@
    */
 
 import java.util.Scanner;
-public class MonthDay {
+public class Problem3_11 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 	
@@ -32,7 +32,7 @@ public class MonthDay {
       System.out.println("In " + year +", Febraury has 29 days.");
     }
     else {
-      System.out.println("In " + year +", Febraury has 282 days.");
+      System.out.println("In " + year +", Febraury has 28 days.");
     }
     break;
       case 3: System.out.println("In " + year +", March has 31 days."); break;
