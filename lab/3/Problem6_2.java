@@ -24,7 +24,8 @@ public class Problem6_2 {
   public static int sumDigits(long n){
 	String s = Long.toString(n); //Convert to a string
     int sum = 0; //initialize variable
-	//Create a for loop to take sum of the digits
+	  
+    //Create a for loop to take sum of the digits
     for (int k=0; k < s.length(); k++){
       String a = s.charAt(k) + ""; //create a string to make s into different characters
       sum += Integer.parseInt(a); //Takes sum of the characters (digits) and converts back into an integer
