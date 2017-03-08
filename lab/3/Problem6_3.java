@@ -28,7 +28,10 @@ public class Problem6_3 {
     }       
   }
 
-//Create a method to put the number in reverse order
+/*
+ *reverse
+ *Puts the number in reverse order
+ */
   public static int reverse(int number){
     int reverse = 0; //intialize variable
 
