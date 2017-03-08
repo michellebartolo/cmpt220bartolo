@@ -20,7 +20,10 @@ public class Problem6_2 {
     long s = input.nextInt();
     System.out.println(sumDigits(s)); 
   }
-  //Create a method to take the sum of the digits
+  /*
+   *sumDigits
+   *Takes the sum of the digits
+   */
   public static int sumDigits(long n){
 	String s = Long.toString(n); //Convert to a string
     int sum = 0; //initialize variable
