@@ -1,3 +1,13 @@
+/**
+   * file: Problem9_13.java
+   * author: Michelle Bartolo
+   * course: CMPT 220
+   * assignment: Lab 6
+   * due date: April 20, 2017
+   * version: 1.3
+   * 
+   * This file contains the solution for Problem 9.13
+   */
 import java.util.Scanner;
 
 public class Problem9_13 {
@@ -5,7 +15,7 @@ public class Problem9_13 {
     Scanner input = new Scanner(System.in);
     System.out.println("Enter the number of rows and columns in the array: "); //prompts the user to enter the number of rows and columns in the array
     
-	int rows = input.nextInt(); //Allows the user to input the number of rows
+    int rows = input.nextInt(); //Allows the user to input the number of rows
     int columns = input.nextInt(); //Allows the user to enter the number of columns
     double[][] arrayInputted = new double[rows][columns]; //Puts the inputed value of rows/columns into an array
 
