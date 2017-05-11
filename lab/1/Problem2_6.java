@@ -1,7 +1,19 @@
-//Michelle Bartolo Lab 1- Problem 2.6 1/27/17
+/**
+  * file: Problem2_6.java
+  * author: Michelle Bartolo  
+  * course: CMPT 220
+  * assignment: Lab 1
+  * due date: January 25, 2017
+  * version: 1.3
+  * 
+  * This file contains the solution to problem 2.6
+  */
+  
+import java.util.Scanner;
 
 public class Problem2_6 {
   public static void main(String[] args) {
+  
     Scanner input = new Scanner(System.in);  // Create new Scanner object
 
     // Prompt the user to enter a number between 0 and 1000.
@@ -19,5 +31,5 @@ public class Problem2_6 {
 
     // Display results
     System.out.println("The sum of the digits is " + sum);
-    }
+  }
 }
