@@ -41,13 +41,13 @@ public class Problem3_4 {
     else if ( month == 7 ) {
       System.out.println("July");
     } 
-    else if ( month == 8 ){
+    else if ( month == 8 ) {
       System.out.println("August");
     } 
-    else if ( month == 9 ){ 
+    else if ( month == 9 ) {
       System.out.println("September");
     } 
-    else if ( month == 10 ){
+    else if ( month == 10 ) {
       System.out.println("October");
     } 
     else if ( month == 11 ) {
@@ -57,7 +57,7 @@ public class Problem3_4 {
       System.out.println("December");
     }
     else {
-      System.out.println("Sorry, please try again.")
+      System.out.println("Sorry, please try again.");
     }
   }
 }
