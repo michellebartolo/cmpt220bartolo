@@ -11,22 +11,23 @@
 
 import java.util.Scanner;
 
-public class PolygonArea {
-  public static void main(String[] args) {	  
-    Scanner input = new Scanner(System.in);
-
-    //Prompts the user to enter the number of sides the polygon has
-    System.out.println("Enter the number of sides: ");
-    double n = input.nextDouble();
+public class Problem4_5 {
+  public static void main(String[] args) {
+		  
+  Scanner input = new Scanner(System.in);
 		
-    //Prompts the user to enter the length of the sides of the polygon 
-    System.out.println("Enter the length of the sides: ");
-    double s = input.nextDouble();
+  //Prompts the user to enter the number of sides the polygon has
+  System.out.println("Enter the number of sides: ");
+  double n = input.nextDouble();
 		
-    //computes area
-    double area = ( ( n * (s * s) ) / ( 4.0 * ( Math.tan( ( (Math.PI) / n ) ) ) ) ); 
+  //Prompts the user to enter the length of the sides of the polygon 
+  System.out.println("Enter the length of the sides: ");
+  double s = input.nextDouble();
 		
-    //Prints the area of the polygon
-    System.out.println("The area of the polygon is " + area );
+  //computes area
+  double area = ( ( n * (s * s) ) / ( 4.0 * ( Math.tan( ( (Math.PI) / n ) ) ) ) ); 
+		
+  //Prints the area of the polygon
+  System.out.println("The area of the polygon is " + area );
   }
 }
