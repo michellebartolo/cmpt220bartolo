@@ -18,15 +18,15 @@ public class Problem3_8 {
 	
     //Prompts the user to enter integer 1
     System.out.print("Enter integer #1: ");
-      int int1 = input.nextInt();	  
+    int int1 = input.nextInt();	  
 	
     //Prompts the user to enter integer 2
     System.out.print("Enter integer #2: ");
-      int int2 = input.nextInt();
+    int int2 = input.nextInt();
 	
     //Prompts the user to enter integer 3
     System.out.print("Enter integer #3: ");
-      int int3 = input.nextInt();
+    int int3 = input.nextInt();
 	  
     //If integer 1 is the smallest, integer 2 is the second smallest, and integer 3 is the largest, print out: integer 1, integer 2, integer 3
     if (int1 <= int2 && int1 <= int3 && int2 <= int3) {
